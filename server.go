@@ -11,7 +11,7 @@ import (
 	"github.com/Charlotte-z/gqlgen-todos/graph/generated"
 )
 
-const defaultPort = "8080"
+const defaultPort = "3000"
 
 func main() {
 	port := os.Getenv("PORT")
